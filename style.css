@@ -167,16 +167,13 @@ nav li a:hover {
 }
 
 /* Solutions Section */
-#solution {
-  height: 1000px;
-  background-color: #9b6f6f;
-}
 
 #solution .sol-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 60px;
+  padding: 120px 0px;
 }
 
 #solution .sol-container .right-side .sol-content {
@@ -194,4 +191,17 @@ nav li a:hover {
   font-size: 48px;
   color: #001931;
   text-transform: capitalize;
+}
+.sol-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  padding-right: 35%;
+}
+
+.sol-list li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
 }
