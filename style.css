@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+}
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 32px;
+}
+nav li {
+  list-style: none;
+}
+nav li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  font-weight: 500;
+}
+nav li a:hover {
+  color: #469165;
+}
+
+.cta-btn {
+  background-color: #469165;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+.cta-btn:hover {
+  background-color: #367c52;
+}
