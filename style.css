@@ -6,27 +6,52 @@
 
 body {
   font-family: "Inter", sans-serif;
-  padding: 20px;
 }
-button {
+/* Common Style*/
+
+.container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0px auto;
+}
+.btn {
   font-family: "Inter", sans-serif;
+  background-color: #469165;
+  color: #ffffff;
+  font-size: 16px;
   font-weight: 600;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
+.btn:hover {
+  background-color: #367c52;
+}
 
+ul li {
+  list-style: none;
+}
+
+.color-primary {
+  color: #18e66e;
+}
+
+/* Navbar */
+header {
+  padding: 16px 0px;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-nav ul {
+
+.nav-links {
   display: flex;
   gap: 32px;
 }
-nav li {
-  list-style: none;
-}
-nav li a {
+
+.nav-links li a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
@@ -37,14 +62,55 @@ nav li a:hover {
   color: #469165;
 }
 
-.cta-btn {
-  background-color: #469165;
-  border: none;
-  color: #ffffff;
-  font-size: 16px;
+.nav-btn .btn {
   padding: 12px 16px;
-  border-radius: 4px;
 }
-.cta-btn:hover {
-  background-color: #367c52;
+
+/* Hero Section */
+#hero-section {
+  background-image: url("./assets/hero-bg.png");
+  height: 674px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#hero-section .hero-content .hero-top {
+  display: inline-flex;
+  gap: 6px;
+  color: #320b0b;
+  background-color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 1000px;
+}
+
+#hero-section .hero-content .hero-title {
+  line-height: 84px;
+}
+#hero-section .hero-content .hero-title {
+  font-size: 72px;
+  font-weight: 700;
+  padding: 16px 0px;
+  text-transform: capitalize;
+}
+#hero-section .hero-content .hero-desc {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 32px;
+  color: white;
+}
+#hero-section .hero-content .hero-buttons {
+  margin-top: 32px;
+}
+
+#hero-section .hero-content .hero-buttons .btn {
+  padding: 16px;
+  display: inline-flex;
+  gap: 10px;
+}
+#hero-section .hero-content .hero-buttons .btn-secondary {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  vertical-align: middle;
 }
