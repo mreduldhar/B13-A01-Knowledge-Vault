@@ -7,6 +7,7 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
 /* Common Style*/
 
 .container {
@@ -113,4 +114,84 @@ nav li a:hover {
   background-color: transparent;
   border: 1px solid #ffffff;
   vertical-align: middle;
+}
+
+/* Features Section  */
+#features {
+  background-color: #fbfbfb;
+}
+
+#features .feat-container {
+  padding-top: 30px;
+}
+
+#features .feat-container .feat-title {
+  text-align: center;
+}
+
+#features .feat-container .feat-title h1 {
+  font-size: 48px;
+  color: #001931;
+  text-transform: capitalize;
+}
+#features .feat-container .feat-title p {
+  font-size: 16px;
+  color: #627382;
+  margin-top: 16px;
+}
+
+#features .feat-container .feat-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 24px;
+}
+
+#features .feat-container .feat-cards .feat-card {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 70px 24px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.6);
+}
+
+.card-icon {
+  display: inline-flex;
+  background-color: #f95555;
+  padding: 14px;
+  border-radius: 50%;
+}
+
+.card-title {
+  margin: 16px 0;
+}
+
+/* Solutions Section */
+#solution {
+  height: 1000px;
+  background-color: #9b6f6f;
+}
+
+#solution .sol-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+#solution .sol-container .right-side .sol-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#solution .sol-container .right-side .sol-content .sol-subtitle {
+  color: #30b868;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#solution .sol-container .right-side .sol-content .sol-title {
+  font-size: 48px;
+  color: #001931;
+  text-transform: capitalize;
 }
